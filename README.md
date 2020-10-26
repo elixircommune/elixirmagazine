@@ -1,2 +1,0 @@
-# elixirmagazine
-Bimonthly Magazine

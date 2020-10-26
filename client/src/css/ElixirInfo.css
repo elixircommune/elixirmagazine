@@ -1,0 +1,67 @@
+.elxirInfo-wrapper{
+    text-align: center;
+}
+.elxirInfo-wrapper>.elixir-info1{
+    display: flex;
+    text-align: left;
+    width: 80%;
+    margin:  auto;
+}
+
+.elxirInfo-wrapper>.elixir-info1>img{
+    height: 200px;
+    margin: -20px 20px;
+}
+.elxirInfo-wrapper>.elixir-info1>p{
+    font-size: 18px;
+}
+.elxirInfo-wrapper>.elixir-info2{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.elxirInfo-wrapper>.elixir-info2>.child{
+    text-align: left;
+    background: rgba(255,255,255,0.60);
+    text-align: left;
+    border-radius: 0.9rem;
+    padding: 10px 0 10px 20px;
+    margin: 20px;
+    width: 300px;
+   object-fit: contain;
+    box-shadow: 5px 10px 28px #888;
+-webkit-box-shadow: 5px 10px 28px #888;
+-moz-box-shadow: 5px 10px 28px #888;
+
+}
+.elxirInfo-wrapper>.elixir-info2>.child>h3{
+    font-size: 24px;
+    font-family: Carter One;
+    margin: 7px 0;
+
+}
+.elxirInfo-wrapper>.elixir-info2>.child>p{
+    font-size: 16px;
+    margin: 0;
+}
+
+@media only screen and (orientation:portrait){
+    .elxirInfo-wrapper>.elixir-info1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .elxirInfo-wrapper>.elixir-info2>.child{
+        width: 90%;
+    }
+    .elxirInfo-wrapper>.elixir-info2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .elxirInfo-wrapper{
+        height: fit-content;
+    }
+}
+

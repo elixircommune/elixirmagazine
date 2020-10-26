@@ -1,0 +1,88 @@
+.nfc-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f4511e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #f04c23;
+}
+.nfc-main{
+    width:64%;
+    padding:20px;
+    background: transparent;
+    box-sizing: border-box;
+    margin: 60px auto 95px auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.nfc-main>.nfc-head{
+    box-sizing: border-box;
+    margin: 0;
+}
+.nfc-main>.nfc-head>h3{
+    font-size: 24px;
+}
+.nfc-main>.nfc-head>p{
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+    text-align: justify;
+}
+.row .col.m12{
+    margin: 0;
+}
+.nfc-main>.nfc-top{
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+.nfc-main>.nfc-top>p{
+    font-size: 16px;
+    margin: 20px 0;
+    width: 100%;
+    text-align: justify;
+}
+
+.nfc-main>.nfc-img{
+   text-align: center;
+   margin: 30px 0;
+}
+.nfc-main>.nfc-img>img{
+    box-shadow: 10px 10px 5px grey;
+   
+}
+
+.nfc-main>.nfc-points>.nfc-p1,.nfc-p2,.nfc-p3{
+    padding:30px 0;
+}
+.nfc-main .nfc-points ul{
+    padding-left: 20px;
+}
+.nfc-main .nfc-points ul li{
+    list-style-type: disc;
+    line-height: 1.6;
+}
+.nfc-main .nfc-points ol li{
+    list-style-type: decimal;
+    line-height: 1.7;
+}
+
+@media (max-width:769px){
+    .nfc-main{
+        width:90%;
+        padding:15px;
+        background: white;
+        box-sizing: border-box;
+        margin: 60px auto 95px auto;
+    }
+    .nfc-main>.nfc-img>img{
+        width: 290px;
+        box-shadow: 7px 7px 4px grey;
+       
+    }
+}

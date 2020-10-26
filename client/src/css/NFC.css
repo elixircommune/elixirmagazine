@@ -1,0 +1,42 @@
+#nfc-wrapper{
+    background: transparent;
+}
+#nfc-wrapper>.col>h1{
+    font-size: 30px;
+    text-align: center;
+}
+#nfc-wrapper >#nfc-row2{
+    margin-top: 40px;
+    padding: 30px ;
+}
+#nfc-wrapper> #nfc-row2 >div >img{
+    height: 340px;
+    box-shadow: 10px 10px 5px#5D6C89;
+      -moz-box-shadow: 10px 10px 5px #5D6C89;
+      -webkit-box-shadow: 10px 10px 5px#5D6C89;
+      -khtml-box-shadow: 10px 10px 5px #5D6C89;
+}
+
+#nfc-wrapper >#nfc-row2> div> p{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+@media (orientation:portrait){
+    #nfc-wrapper{
+        margin-top: 50px;
+    }
+    #nfc-wrapper> #nfc-row2 >div> img{
+        height: 220px;
+        width: 280px;
+    }
+    #nfc-wrapper >#nfc-row2> div> p{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    #nfc-wrapper >#nfc-row2{
+        margin-top: 10px;
+        padding: 10px ;
+        height: 80vh;
+    }
+}

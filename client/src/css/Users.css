@@ -1,0 +1,21 @@
+.user-table-wrapper{
+    width: 80%;
+    background: white;
+    margin: 65px auto;
+}
+.user-table-wrapper > table>thead{
+    background: cornflowerblue;
+    color: white;
+}
+.user-table-wrapper>table>tbody>tr:hover{
+    background: skyblue;
+}
+@media only screen and(orientation:portrait){
+    .user-table-wrapper{
+        width: 98%;
+        
+    }
+    table{
+        rotate: 90deg;
+    }
+}

@@ -1,0 +1,11 @@
+#magazine.mg2{
+    width:300px;
+    height:450px;
+    margin:20px auto;
+}
+#magazine .turn-page{
+    background-repeat: no-repeat;
+background-position: center center;
+background-color: #ccc;
+
+}
